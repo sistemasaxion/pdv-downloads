@@ -347,12 +347,13 @@ São os números do seu negócio: vendas, clientes, custos e contas. O sistema f
 
 ## Planos
 
-Pague uma vez só ou por mês. Todos os planos têm 7 dias grátis para testar e recebem as atualizações sem reinstalar nada. Para mudar de plano, clique em "Ver outros planos", no pé do menu do sistema (ou Configurações > Licença): os planos aparecem lado a lado, o pedido vai pelo suporte e os módulos novos aparecem sem reinstalar.
+Pague uma vez só, por mês ou por ano: no anual, as 12 mensalidades saem com 15% de desconto. Todos os planos têm 7 dias grátis para testar e recebem as atualizações sem reinstalar nada. Para mudar de plano, clique em "Ver outros planos", no pé do menu do sistema (ou Configurações > Licença): os planos aparecem lado a lado, com os preços no pagamento único, no mensal e no anual, o pedido vai pelo suporte e os módulos novos aparecem sem reinstalar.
 
 | | Básico | Médio | Completo |
 |---|---|---|---|
 | **Pagamento único** | **R$ 49,90** | **R$ 69,90** | **R$ 99,90** |
-| **Ou por mês** | R$ 19,90 | R$ 29,90 | R$ 49,90 |
+| **Ou por mês** | R$ 19,90 | R$ 39,90 | R$ 49,90 |
+| **Ou por ano** (12 meses com 15% de desconto) | R$ 202,98 | R$ 406,98 | R$ 508,98 |
 | Computadores (no mesmo estoque) | 1 | 2 | 3 |
 | Várias lojas: o cadastro da matriz nas filiais, o estoque das outras lojas e a transferência | Sim | Sim | Sim |
 | Várias lojas: o Painel e o celular do dono com as lojas juntas | - | - | Sim |
@@ -381,7 +382,7 @@ Pague uma vez só ou por mês. Todos os planos têm 7 dias grátis para testar e
 | Acesso de qualquer lugar (link e PIN) | - | - | Sim |
 | Pedidos, estoque, preço e anúncios do Mercado Livre | - | - | Sim |
 
-**Usuário extra:** R$ 9,90 por mês para caixa ou vendedor e R$ 14,90 para gerente ou financeiro. No pagamento único, R$ 24,90 e R$ 39,90.
+**Usuário extra:** R$ 9,90 por mês para caixa ou vendedor e R$ 14,90 para gerente ou financeiro. No anual, R$ 112,86 e R$ 169,86 por ano. No pagamento único, R$ 24,90 e R$ 39,90.
 
 ---
 
