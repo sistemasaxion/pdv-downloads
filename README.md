@@ -37,7 +37,7 @@ Para quem quer vender rápido, saber quanto ganha e parar de perder dinheiro com
 | **Roupas e calçados** | Grade de tamanho e cor, etiqueta com código de barras para cada peça, troca com vale-troca e condicional (o cliente leva para provar), caixa com a foto de cada peça |
 | **Mercadinho, depósito, padaria, açougue e granel** | Caixa no formato de mercado (a logo da loja no canto, o produto, o total e o troco em letras grandes), venda por peso (kg, g, litro, metro), etiqueta da balança lida no caixa, balança ligada ao computador, preço de atacado automático, leitor de código de barras, validade e lote com o aviso do que vai vencer |
 | **Pet shop, cosméticos, agropecuária e quem vende com validade** | Validade e lote de cada produto, com o lote que vem no XML da nota, o caixa que pergunta o lote quando precisa e o inventário por lote |
-| **Lanchonete e restaurante** | Mapa de mesas, o garçom pedindo pelo celular no Wi-Fi da loja (sem internet e sem instalar nada), a cozinha e o bar recebendo cada um só os itens deles, taxa de serviço e conta dividida, adicionais (bacon, borda), observação por item, delivery e retirada |
+| **Lanchonete e restaurante** | A planta do salão com as mesas no lugar (ou a grade, você escolhe), o garçom pedindo pelo celular no Wi-Fi da loja (sem internet e sem instalar nada), a cozinha e o bar recebendo cada um só os itens deles, taxa de serviço e conta dividida, adicionais (bacon, borda), observação por item, delivery e retirada |
 | **Quem tem mais de uma loja** | O cadastro feito na matriz chegando sozinho nas filiais, o estoque de cada loja à vista no caixa, a transferência de mercadoria com conferência na chegada e as vendas de todas as lojas no Painel |
 | **Comércio em geral** | Tudo o que está acima, ligado ou desligado conforme a sua necessidade |
 
@@ -283,15 +283,19 @@ Produtos (com grade de tamanho e cor e venda por peso), fornecedores, clientes e
 
 ### Mesas e garçom
 
-- **Mapa das mesas**: cada mesa com a situação (livre, ocupada, pediu a conta), o tempo aberta, o total e o garçom. Pelo teclado, digite o número da mesa e Enter.
+- **A planta do salão**: as mesas desenhadas onde ficam de verdade, separadas pelos ambientes da loja (Salão, Varanda, Bar, os que você criar), com as cadeiras ocupadas pintadas, a situação (livre, ocupada, pediu a conta), o garçom, o valor e uma linha embaixo de cada mesa que mostra há quanto tempo ela está aberta. No topo, quantas estão ocupadas, quanto está em aberto, quantas pediram a conta e quais precisam de atenção.
+- **Arrumar o salão em minutos**: o passo a passo ao lado da planta; arraste cada mesa para o lugar ou faça tudo pelo teclado, escolha a forma (quadrada, redonda ou comprida) e quantos lugares. Prefere sem desenho? A grade de cartões continua valendo, e cada computador escolhe como ver (o Ctrl+G troca na hora).
+- **A conta sem abrir a mesa**: um clique na mesa mostra a conta ao lado, por rodada, com a taxa de serviço, o total e quanto cada um paga; dali mesmo imprime a conta ou fecha. Pelo teclado, digite o número da mesa e Enter.
 - **A conta lançada aos poucos**: busque no cardápio ("3*" antes do nome lança três), com adicionais e observação. Cada envio vai para a cozinha só com os itens novos, e cada setor recebe só o dele: a pizza na cozinha, a bebida no bar, cada um na sua impressora.
 - **Garçom no celular**: o garçom abre a mesa, escolhe no cardápio e manda para a cozinha pelo navegador do celular, no Wi-Fi da loja, sem internet. O celular é liberado uma vez pelo código que aparece no computador, e cada garçom entra com o PIN dele, pelo teclado da própria tela. No mapa, o filtro "Minhas" mostra só as mesas de quem está com o celular; o cardápio vem por categoria, com a foto do prato, e o "+" vira um contador na linha do item, sem abrir outra tela. A conta da mesa aparece por rodada, e mudar ou juntar mesa é pela grade das mesas.
 - **Cancelar com motivo**: o item cancelado precisa do motivo e da permissão (ou de quem autorize), fica no histórico e a cozinha recebe o aviso de não preparar.
 - **Fechar a conta**: a conta impressa para o cliente conferir, a taxa de serviço (10% de começo, você escolhe; o caixa tira com uma tecla, porque é opcional), o desconto, quanto cada pessoa paga e quem sai mais cedo pagando só os itens dele. Mude a conta de mesa ou junte duas mesas sem perder nenhum item.
 
-![Mapa das mesas](docs/mesas.png)
+![A planta do salão, com a conta da mesa escolhida ao lado](docs/mesas.png)
 
-![A conta da mesa](docs/mesa-conta.png)
+![Arrumar o salão](docs/mesas-arrumar.png)
+
+![A conta da mesa, com o cardápio em fotos](docs/mesa-conta.png)
 
 <p align="center">
   <img src="docs/garcom-celular.png" width="300" alt="O garçom lançando pelo celular">
